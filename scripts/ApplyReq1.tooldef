@@ -1,0 +1,19 @@
+from "lib:cif" import *;
+
+tooldef("Build_Program_Oven_Plant.tooldef");
+
+cifmerge("../autogen/ProgramOven_Plant.cif",
+        "../Req/R1.cif",
+         "-o __tmp__.cif");
+
+ cifsupsynth("__tmp__.cif",
+            "-o ../autogen/S.cif",
+            "-n S1",
+            "-d dump1.synth_dump");
+rmfile ("__tmp__.cif");
+
+cifmerge("../autogen/S.cif",
+        "../autogen/ProgramOven_Plant.cif",
+         "-o ../autogen/Plant_With_Req1.cif");
+
+ cifsim("../autogen/Plant_With_Req1.cif");

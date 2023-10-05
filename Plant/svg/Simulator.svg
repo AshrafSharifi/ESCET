@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="Simulator.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.70199214"
+     inkscape:cx="-72.650386"
+     inkscape:cy="378.20936"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="233.62085"
+       y="-45.584556"
+       width="25.641313"
+       height="156.69691"
+       id="rect4223" />
+    <rect
+       x="232.19633"
+       y="24.216795"
+       width="330.48803"
+       height="49.858108"
+       id="rect2860" />
+    <rect
+       x="575.50502"
+       y="156.69691"
+       width="188.03629"
+       height="49.858108"
+       id="rect1345" />
+    <rect
+       x="326.21448"
+       y="153.84788"
+       width="182.33822"
+       height="55.556178"
+       id="rect1339" />
+    <rect
+       x="66.952317"
+       y="155.27239"
+       width="185.18726"
+       height="49.858108"
+       id="rect1283" />
+    <rect
+       x="82.622008"
+       y="155.27239"
+       width="163.8195"
+       height="47.009073"
+       id="rect1225" />
+    <rect
+       x="232.19633"
+       y="24.216795"
+       width="329.06352"
+       height="-1.4245174"
+       id="rect2860-1" />
+    <rect
+       x="232.19633"
+       y="24.216795"
+       width="329.06351"
+       height="0"
+       id="rect2860-1-2" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2804"
+       transform="translate(1.5076142,-78.395939)">
+      <path
+         style="fill:#b1b1ae;fill-opacity:0.263158;stroke-width:0.376904"
+         d="m 38.632614,170.16804 c -3.326495,-0.46455 -7.953362,-2.04159 -10.74175,-3.66125 -3.022841,-1.75585 -8.415303,-7.08805 -10.147483,-10.03409 -3.112337,-5.29335 -4.569994,-12.13109 -3.807522,-17.86072 0.932068,-7.00406 3.221541,-11.62176 8.288333,-16.71692 3.082203,-3.09947 4.103332,-3.86386 7.174286,-5.37048 4.901843,-2.40487 7.544964,-3.0335 12.814721,-3.04782 5.215876,-0.0142 7.843752,0.60366 12.626268,2.9685 5.942423,2.93838 9.901902,6.8974 12.834146,12.83266 2.344299,4.74518 2.964998,7.39819 2.954042,12.62627 -0.01574,7.51508 -2.445542,13.72387 -7.49631,19.15511 -6.390235,6.87161 -15.708731,10.33628 -24.498731,9.10874 z"
+         id="path1217" />
+      <rect
+         style="fill:#cccccc;fill-opacity:0.951417;stroke-width:0.264583"
+         id="rect2621"
+         width="192.22081"
+         height="64.073601"
+         x="9.4225883"
+         y="110.43274" />
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="NoProgram"
+         cx="38.846832"
+         cy="142.23325"
+         r="28.738159" />
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="Cooking"
+         cx="106.66371"
+         cy="143.97716"
+         r="28.738159" />
+      <circle
+         style="fill:#000000;stroke-width:0.264583"
+         id="Pyrolysis"
+         cx="172.99872"
+         cy="142.46954"
+         r="28.738159" />
+      <path
+         style="fill:#999999;fill-opacity:0.291866;stroke-width:0.376904"
+         d="m 100.77094,171.87059 c -5.310647,-1.15496 -9.89604,-3.64659 -13.87721,-7.54064 -3.355649,-3.28223 -5.302122,-6.227 -6.870064,-10.39355 -2.469359,-6.56193 -2.466433,-13.36447 0.0086,-19.94134 1.559539,-4.14417 3.510709,-7.09324 6.861479,-10.37069 9.38589,-9.18052 23.198645,-10.73208 34.743835,-3.9027 2.70062,1.59752 7.04293,5.8589 8.9696,8.80244 3.47087,5.30277 5.16645,12.67735 4.341,18.88029 -1.38016,10.37124 -8.13985,19.1407 -17.74446,23.02017 -4.85841,1.9624 -11.40823,2.53876 -16.43276,1.44602 z"
+         id="path1219" />
+      <path
+         style="fill:#999999;fill-opacity:0.215311;stroke-width:0.376904"
+         d="m 167.10597,170.36298 c -5.31065,-1.15496 -9.89604,-3.64659 -13.87721,-7.54065 -3.35565,-3.28222 -5.30212,-6.22699 -6.87006,-10.39355 -2.46937,-6.56192 -2.46644,-13.36446 0.009,-19.94134 1.55954,-4.14417 3.51071,-7.09323 6.86148,-10.37069 9.38589,-9.18052 23.19864,-10.73207 34.74383,-3.90269 2.70062,1.59751 7.04292,5.8589 8.96959,8.80244 3.47088,5.30277 5.16646,12.67734 4.341,18.88029 -1.38016,10.37124 -8.13985,19.1407 -17.74446,23.02017 -4.8584,1.9624 -11.40822,2.53876 -16.43276,1.44602 z"
+         id="path1221" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-3.392132,94.602791)"
+         id="text1281"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1283);display:inline;fill:#241f1c"><tspan
+           x="74.975586"
+           y="183.5383"
+           id="tspan5189">No Program</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-3.392132,94.602791)"
+         id="text1337"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1339);display:inline;fill:#241f1c"><tspan
+           x="359.58691"
+           y="182.11447"
+           id="tspan5191">Cooking</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-3.392132,94.602791)"
+         id="text1343"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1345);display:inline;fill:#241f1c"><tspan
+           x="607.59375"
+           y="184.96408"
+           id="tspan5193">Pyrolysis</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1223"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1225);display:inline;fill:#241f1c" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text2858"
+       style="font-weight:bold;font-size:42.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect2860);shape-padding:0;display:inline;fill:#cccccc;fill-opacity:0.951417"><tspan
+         x="237.31531"
+         y="61.905908"
+         id="tspan5197"><tspan
+           style="fill:#000080"
+           id="tspan5195">Program Selector</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:11.2889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;text-anchor:middle;fill:#000080;fill-opacity:0.951417;stroke-width:0.264583"
+       x="111.94035"
+       y="4.8997464"
+       id="text3018"><tspan
+         sodipodi:role="line"
+         id="tspan3016"
+         style="stroke-width:0.264583"
+         x="111.94035"
+         y="4.8997464"></tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         id="tspan3020"
+         x="111.94035"
+         y="19.010872" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="111.94035"
+         y="33.121998"
+         id="tspan3022" /></text>
+    <rect
+       style="fill:none;fill-opacity:0.951417;stroke-width:0.264583"
+       id="rect3076"
+       width="95.356598"
+       height="88.949234"
+       x="10.930203"
+       y="108.92513" />
+    <rect
+       style="fill:#cccccc;fill-opacity:0.951417;stroke-width:0.264583"
+       id="rect3156"
+       width="94.225883"
+       height="90.833755"
+       x="11.307106"
+       y="120.98604" />
+    <rect
+       style="fill:#552200;fill-opacity:0.821862;stroke-width:0.264583"
+       id="Door"
+       width="45.605331"
+       height="56.912437"
+       x="34.486675"
+       y="138.51205" />
+    <rect
+       style="fill:#cccccc;fill-opacity:0.951417;stroke-width:0.264583"
+       id="rect3156-9"
+       width="94.225883"
+       height="90.833755"
+       x="108.92512"
+       y="120.79758" />
+    <circle
+       style="fill:#000000;stroke-width:0.264583"
+       id="OvenStatus"
+       cx="153.77666"
+       cy="165.08376"
+       r="28.738159" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,45.17053,116.25695)"
+       id="text2858-8"
+       style="font-weight:bold;font-size:42.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect2860-1);shape-padding:52.7071;display:inline;fill:#000080;fill-opacity:0.951417"><tspan
+         x="0"
+         y="0"
+         id="tspan5199">Door</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,141.93862,116.73114)"
+       id="text2858-8-7"
+       style="font-weight:bold;font-size:42.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect2860-1-2);shape-padding:52.7071;display:inline;fill:#000080;fill-opacity:0.951417"><tspan
+         x="0"
+         y="0"
+         id="tspan5201">Oven</tspan></text>
+    <rect
+       style="fill:#cccccc;fill-opacity:0.951417;stroke-width:0.264583"
+       id="rect3258"
+       width="3.392132"
+       height="4.1459389"
+       x="84.426392"
+       y="128.52411" />
+    <rect
+       style="fill:#cccccc;fill-opacity:0.951417;stroke-width:0.264583"
+       id="rect3260"
+       width="5.653553"
+       height="6.7842641"
+       x="82.164978"
+       y="127.7703" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4221"
+       style="font-weight:bold;font-size:42.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect4223);display:inline;fill:#000080;fill-opacity:0.951417" />
+    <ellipse
+       style="fill:#ffeeaa;fill-opacity:0.95294118;stroke-width:0.264583"
+       id="path4489"
+       cx="73.119293"
+       cy="167.53363"
+       rx="1.8845177"
+       ry="2.0729694" />
+  </g>
+</svg>

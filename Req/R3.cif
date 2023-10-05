@@ -1,0 +1,45 @@
+import "../Plant/Events.cif";
+
+// If pyrolysis has been selected, then the oven can be started only if the door is closed.
+
+requirement R3:
+
+  location NoProgramSelected:
+    initial; marked;
+    edge Cselection goto ProgramSelected;
+    edge Pselection goto PSelect;
+    edge DoorOpening goto closedoor;
+
+ location closedoor:
+    edge DoorClosing goto NoProgramSelected;
+
+
+  location ProgramSelected:
+    edge Deselect goto NoProgramSelected;
+    edge OvenON goto OvenOFFNeed;
+    edge DoorOpening;
+    edge DoorClosing;
+
+  location OvenOFFNeed:
+    edge OvenOFF goto ProgramSelected;
+    edge DoorOpening;
+    edge DoorClosing;
+
+  location PSelect:
+    edge Deselect goto NoProgramSelected;
+    edge OvenON goto PSelectOvenOFFNeed;
+    edge DoorClosing goto PSelectDoorClosed;
+    edge DoorOpening goto PSelectOvenOFFNeed;
+
+  location PSelectDoorClosed:
+    edge OvenON goto PSelectOvenOFFNeed;
+    edge Deselect goto NoProgramSelected;
+    edge DoorOpening goto PSelectOvenOFFNeed;
+
+  location PSelectOvenOFFNeed:
+    edge OvenOFF goto PSelect;
+    edge DoorClosing goto PSelectDoorClosed;
+end
+
+
+

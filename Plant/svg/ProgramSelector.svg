@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="ProgramSelector.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.70199214"
+     inkscape:cx="-101.14073"
+     inkscape:cy="220.08793"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="575.50502"
+       y="156.69691"
+       width="188.03629"
+       height="49.858108"
+       id="rect1345" />
+    <rect
+       x="326.21448"
+       y="153.84788"
+       width="182.33822"
+       height="55.556178"
+       id="rect1339" />
+    <rect
+       x="66.952317"
+       y="155.27239"
+       width="185.18726"
+       height="49.858108"
+       id="rect1283" />
+    <rect
+       x="82.622008"
+       y="155.27239"
+       width="163.8195"
+       height="47.009073"
+       id="rect1225" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#000000;stroke-width:0.264583"
+       id="NoProgram"
+       cx="42.238964"
+       cy="47.630451"
+       r="28.738159" />
+    <circle
+       style="fill:#000000;stroke-width:0.264583"
+       id="Cooking"
+       cx="110.05585"
+       cy="49.374371"
+       r="28.738159" />
+    <circle
+       style="fill:#000000;stroke-width:0.264583"
+       id="Pyrolysis"
+       cx="176.39085"
+       cy="47.866756"
+       r="28.738159" />
+    <path
+       style="fill:#b1b1ae;stroke-width:1.42452;fill-opacity:0.26315793"
+       d="M 146.01303,287.02544 C 133.44045,285.26966 115.95308,279.30922 105.41429,273.18766 93.989381,266.55139 73.608422,246.39819 67.061597,235.26356 55.298434,215.25717 49.78918,189.41376 52.670965,167.75845 56.193739,141.2864 64.846867,123.83371 83.996946,104.57638 95.646219,92.861865 99.505604,89.972832 111.11236,84.278513 c 18.52665,-9.08925 28.5164,-11.465184 48.43359,-11.519298 19.71355,-0.05356 29.64568,2.281528 47.72133,11.219496 22.45955,11.105701 37.42451,26.068929 48.50701,48.501409 8.86034,17.93452 11.20629,27.96166 11.16488,47.72133 -0.0595,28.40345 -9.24299,51.86975 -28.33251,72.39729 -24.15207,25.97144 -59.37158,39.06622 -92.59363,34.4267 z"
+       id="path1217"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#999999;stroke-width:1.42452;fill-opacity:0.29186603"
+       d="m 393.6872,292.03579 c -20.07173,-4.3652 -37.40235,-13.78238 -52.44929,-28.50008 -12.68277,-12.40525 -20.03952,-23.5351 -25.9656,-39.2827 -9.33301,-24.80099 -9.32195,-50.51137 0.0324,-75.36885 5.89432,-15.66301 13.26882,-26.80909 25.93315,-39.19632 35.47423,-34.698025 87.6799,-40.562162 131.31526,-14.750328 10.20708,6.037838 26.61894,22.143858 33.90083,33.269048 13.11827,20.04196 19.52676,47.91439 16.40693,71.35859 -5.21634,39.19838 -30.76479,72.34279 -67.06567,87.00537 -18.36247,7.41693 -43.1177,9.5953 -62.10806,5.46527 z"
+       id="path1219"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#999999;stroke-width:1.42452;fill-opacity:0.21531101"
+       d="m 644.40225,286.33772 c -20.07172,-4.3652 -37.40234,-13.78237 -52.44928,-28.50008 -12.68277,-12.40525 -20.03953,-23.5351 -25.9656,-39.2827 -9.33302,-24.80099 -9.32195,-50.51137 0.0324,-75.36885 5.89432,-15.66301 13.26882,-26.80909 25.93315,-39.19632 35.47423,-34.698024 87.6799,-40.562161 131.31526,-14.750328 10.20708,6.037838 26.61894,22.143858 33.90083,33.269048 13.11827,20.04197 19.52676,47.91439 16.40692,71.35859 -5.21634,39.19838 -30.76479,72.3428 -67.06566,87.00537 -18.36247,7.41693 -43.1177,9.5953 -62.10807,5.46527 z"
+       id="path1221"
+       transform="scale(0.26458333)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1223"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1225);display:inline;fill:#241f1c" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1281"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1283);display:inline;fill:#241f1c"><tspan
+         x="74.975586"
+         y="183.5383"
+         id="tspan3733">No Program</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1337"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1339);display:inline;fill:#241f1c"><tspan
+         x="359.58691"
+         y="182.11447"
+         id="tspan3735">Cooking</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1343"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;white-space:pre;shape-inside:url(#rect1345);display:inline;fill:#241f1c"><tspan
+         x="607.59375"
+         y="184.96408"
+         id="tspan3737">Pyrolysis</tspan></text>
+  </g>
+</svg>

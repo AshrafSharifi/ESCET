@@ -1,0 +1,85 @@
+controllable DoorOpening;
+controllable DoorClosing;
+controllable OvenON;
+controllable OvenOFF;
+controllable Cselection;
+controllable Pselection;
+controllable Deselect;
+supervisor automaton S1:
+  alphabet DoorOpening, DoorClosing, OvenON, OvenOFF, Cselection, Pselection, Deselect;
+  location s1:
+    initial;
+    marked;
+    edge Pselection goto s2;
+    edge Cselection goto s3;
+    edge DoorOpening goto s4;
+  location s2:
+    edge Deselect goto s1;
+    edge OvenON goto s8;
+    edge DoorOpening goto s5;
+  location s3:
+    edge Deselect goto s1;
+    edge OvenON goto s7;
+    edge DoorOpening goto s6;
+  location s4:
+    edge Pselection goto s5;
+    edge Cselection goto s6;
+    edge DoorClosing goto s1;
+  location s5:
+    edge Deselect goto s4;
+    edge OvenON goto s10;
+    edge DoorClosing goto s2;
+  location s6:
+    edge Deselect goto s4;
+    edge OvenON goto s9;
+    edge DoorClosing goto s3;
+  location s7:
+    edge OvenOFF goto s3;
+    edge DoorOpening goto s9;
+  location s8:
+    edge OvenOFF goto s2;
+    edge DoorOpening goto s10;
+  location s9:
+    edge OvenOFF goto s6;
+    edge DoorClosing goto s7;
+  location s10:
+    edge OvenOFF goto s5;
+    edge DoorClosing goto s8;
+end
+plant automaton Door:
+  location Closed:
+    initial;
+    marked;
+    edge DoorOpening goto Open;
+  location Open:
+    edge DoorClosing goto Closed;
+end
+plant automaton Oven:
+  location OFF:
+    initial;
+    marked;
+    edge OvenON goto ON;
+  location ON:
+    edge OvenOFF goto OFF;
+end
+plant automaton ProgramSelector:
+  location N:
+    initial;
+    marked;
+    edge Cselection goto C;
+    edge Pselection goto P;
+  location C:
+    edge Deselect goto N;
+  location P:
+    edge Deselect goto N;
+end
+svgin id "Door" event DoorClosing file "../Plant/svg/Simulator.svg";
+svgout id "Door" attr "fill" value if Door.Open: "#ffeeaa" else "brown" end file "../Plant/svg/Simulator.svg";
+svgin id "OvenStatus" event OvenOFF file "../Plant/svg/Simulator.svg";
+svgout id "OvenStatus" attr "fill" value if Oven.ON: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";
+svgin id "Cooking" event Cselection file "../Plant/svg/Simulator.svg";
+svgin id "Pyrolysis" event Pselection file "../Plant/svg/Simulator.svg";
+svgin id "NoProgram" event Deselect file "../Plant/svg/Simulator.svg";
+svgout id "Cooking" attr "fill" value if ProgramSelector.C: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";
+svgout id "Pyrolysis" attr "fill" value if ProgramSelector.P: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";
+svgout id "NoProgram" attr "fill" value if ProgramSelector.N: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";

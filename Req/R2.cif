@@ -1,0 +1,23 @@
+import "../Plant/Events.cif";
+
+
+requirement R2: // Program can be deSelected only if oven is off
+
+  location NoProgramSelected:
+    initial; marked;
+    edge Cselection goto ProgramSelected;
+    edge Pselection goto ProgramSelected;
+
+
+
+  location ProgramSelected:
+    edge Deselect goto NoProgramSelected;
+    edge OvenON goto OvenOFFNecessity;
+
+  location OvenOFFNecessity:
+    edge OvenOFF goto ProgramSelected;
+
+end
+
+
+

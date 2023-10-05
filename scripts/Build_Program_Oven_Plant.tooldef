@@ -1,0 +1,15 @@
+from "lib:cif" import *;
+
+if not exists("../autogen/"):
+    mkdir("../autogen/");
+end
+
+cifmerge(
+        "../Plant/Oven.cif",
+        "../Plant/ProgramSelector.cif",
+        "-o ../autogen/ProgramOven_Plant.cif");
+
+//string graph = "svgout id \"road\" attr \"fill\" value if (YellowCarStream.BRIDGE_RED or YellowCarStream.BRIDGE_GREEN)  and (BlueCarStream.BRIDGE_RED or BlueCarStream.BRIDGE_GREEN) : \"red\" else \"#808080\" end file \"../Plant/gui.svg\"; ";
+//writefile("../autogen/Full_Plant.cif",graph,append=true);
+writefile("../autogen/ProgramOven_Plant.cif","",append=true);
+

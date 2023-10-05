@@ -1,0 +1,25 @@
+import "Events.cif";
+
+plant automaton Oven:
+
+    location OFF: initial; marked;
+        edge OvenON goto ON;
+    location ON:
+        edge OvenOFF goto OFF;
+
+
+end
+
+svgfile "svg/Simulator.svg";
+svgin id "OvenStatus" event OvenOFF;
+
+svgout id "OvenStatus" attr "fill" value if Oven.ON : "yellow"
+                                    else "gray" end;
+
+
+
+
+
+
+
+

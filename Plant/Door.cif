@@ -1,0 +1,25 @@
+import "Events.cif";
+
+plant automaton Door:
+
+    location Closed: initial; marked;
+        edge DoorOpening goto Open;
+    location Open:
+        edge DoorClosing goto Closed;
+
+
+end
+
+svgfile "svg/Simulator.svg";
+svgin id "Door" event DoorClosing;
+
+svgout id "Door" attr "fill" value if Door.Open : "#ffeeaa"
+                                    else "brown" end;
+
+
+
+
+
+
+
+

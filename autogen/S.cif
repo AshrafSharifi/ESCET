@@ -1,0 +1,78 @@
+controllable DoorOpening;
+controllable DoorClosing;
+controllable OvenON;
+controllable OvenOFF;
+controllable Cselection;
+controllable Pselection;
+controllable Deselect;
+supervisor automaton S1:
+  alphabet DoorOpening, DoorClosing, OvenON, OvenOFF, Cselection, Pselection, Deselect;
+  location s1:
+    initial;
+    marked;
+    edge Pselection goto s2;
+    edge Cselection goto s3;
+    edge DoorOpening goto s4;
+  location s2:
+    edge Deselect goto s1;
+    edge OvenON goto s7;
+    edge DoorOpening goto s8;
+  location s3:
+    edge Deselect goto s1;
+    edge OvenON goto s5;
+    edge DoorOpening goto s6;
+  location s4:
+    edge DoorClosing goto s1;
+  location s5:
+    edge OvenOFF goto s3;
+    edge DoorOpening goto s10;
+  location s6:
+    edge Deselect goto s9;
+    edge OvenON goto s10;
+    edge DoorClosing goto s3;
+  location s7:
+    edge OvenOFF goto s2;
+  location s8:
+    edge DoorClosing goto s11;
+  location s9:
+    edge Pselection goto s12;
+    edge Cselection goto s6;
+  location s10:
+    edge OvenOFF goto s6;
+    edge DoorClosing goto s5;
+  location s11:
+    edge Deselect goto s1;
+    edge OvenON goto s7;
+    edge DoorOpening goto s8;
+  location s12:
+    edge Deselect goto s9;
+    edge OvenON goto s13;
+    edge DoorClosing goto s11;
+  location s13:
+    edge OvenOFF goto s12;
+    edge DoorClosing goto s14;
+  location s14:
+    edge Deselect goto s15;
+    edge DoorOpening goto s13;
+  location s15:
+    edge Pselection goto s16;
+    edge Cselection goto s17;
+    edge DoorOpening goto s18;
+  location s16:
+    edge Deselect goto s15;
+    edge DoorOpening goto s13;
+  location s17:
+    edge Deselect goto s15;
+    edge DoorOpening goto s19;
+  location s18:
+    edge DoorClosing goto s15;
+  location s19:
+    edge Deselect goto s20;
+    edge DoorClosing goto s17;
+  location s20:
+    edge Pselection goto s21;
+    edge Cselection goto s19;
+  location s21:
+    edge Deselect goto s20;
+    edge DoorClosing goto s14;
+end

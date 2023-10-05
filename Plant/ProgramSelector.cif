@@ -1,0 +1,32 @@
+import "Events.cif";
+
+plant automaton ProgramSelector:
+
+    location N: initial; marked;
+        edge Cselection goto C;
+        edge Pselection goto P;
+    location C:
+        edge Deselect goto N;
+    location P:
+        edge Deselect goto N;
+
+end
+
+svgfile "svg/Simulator.svg";
+svgin id "Cooking" event Cselection;
+svgin id "Pyrolysis" event Pselection;
+svgin id "NoProgram" event Deselect;
+
+svgout id "Cooking" attr "fill" value if ProgramSelector.C : "yellow"
+                                    else "gray" end;
+svgout id "Pyrolysis" attr "fill" value if ProgramSelector.P : "yellow"
+                                    else "gray" end;
+svgout id "NoProgram" attr "fill" value if ProgramSelector.N : "yellow"
+                                    else "gray" end;
+
+
+
+
+
+
+

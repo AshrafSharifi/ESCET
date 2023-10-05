@@ -1,0 +1,52 @@
+controllable OvenON;
+controllable OvenOFF;
+controllable Cselection;
+controllable Pselection;
+controllable Deselect;
+controllable DoorOpening;
+controllable DoorClosing;
+supervisor automaton S1:
+  alphabet OvenON, OvenOFF, Cselection, Pselection, Deselect;
+  location s1:
+    initial;
+    marked;
+    edge Pselection goto s2;
+    edge Cselection goto s3;
+  location s2:
+    edge Deselect goto s1;
+    edge OvenON goto s5;
+  location s3:
+    edge Deselect goto s1;
+    edge OvenON goto s4;
+  location s4:
+    edge OvenOFF goto s3;
+  location s5:
+    edge OvenOFF goto s2;
+end
+plant automaton Oven:
+  location OFF:
+    initial;
+    marked;
+    edge OvenON goto ON;
+  location ON:
+    edge OvenOFF goto OFF;
+end
+plant automaton ProgramSelector:
+  location N:
+    initial;
+    marked;
+    edge Cselection goto C;
+    edge Pselection goto P;
+  location C:
+    edge Deselect goto N;
+  location P:
+    edge Deselect goto N;
+end
+svgin id "OvenStatus" event OvenOFF file "../Plant/svg/Simulator.svg";
+svgout id "OvenStatus" attr "fill" value if Oven.ON: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";
+svgin id "Cooking" event Cselection file "../Plant/svg/Simulator.svg";
+svgin id "Pyrolysis" event Pselection file "../Plant/svg/Simulator.svg";
+svgin id "NoProgram" event Deselect file "../Plant/svg/Simulator.svg";
+svgout id "Cooking" attr "fill" value if ProgramSelector.C: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";
+svgout id "Pyrolysis" attr "fill" value if ProgramSelector.P: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";
+svgout id "NoProgram" attr "fill" value if ProgramSelector.N: "yellow" else "gray" end file "../Plant/svg/Simulator.svg";

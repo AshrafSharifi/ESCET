@@ -1,0 +1,19 @@
+from "lib:cif" import *;
+
+tooldef("Build_FullPlant.tooldef");
+
+cifmerge("../autogen/Full_Plant.cif",
+        "../Req/R3.cif",
+         "-o __tmp__.cif");
+
+ cifsupsynth("__tmp__.cif",
+            "-o ../autogen/S.cif",
+            "-n S1",
+            "-d dump3.synth_dump");
+rmfile ("__tmp__.cif");
+
+cifmerge("../autogen/S.cif",
+        "../autogen/Full_Plant.cif",
+         "-o ../autogen/Plant_With_Req3.cif");
+
+ cifsim("../autogen/Plant_With_Req3.cif");

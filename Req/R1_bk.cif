@@ -1,0 +1,20 @@
+import "../Plant/Events.cif";
+
+
+requirement R1: // Oven ON When Program Is Selected
+
+  location NoProgramSelected:
+    initial; marked;
+    edge Cselection goto ProgramSelected;
+    edge Pselection goto ProgramSelected;
+
+
+
+  location ProgramSelected:
+    edge Deselect goto NoProgramSelected;
+    edge OvenON;
+
+end
+
+
+
